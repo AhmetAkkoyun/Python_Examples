@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>264</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>KUMPİR EXPRES</string>
+  </property>
+  <widget class="QPushButton" name="btn_siparis_tamamla">
+   <property name="geometry">
+    <rect>
+     <x>264</x>
+     <y>190</y>
+     <width>111</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Siparişi Tamamla</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cmb_kumpir_secim">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>20</y>
+     <width>91</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Sade Kumpir</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Çift Kaşarlı Kumpir</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Karışık Kumpir</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="edt_siparis_bilgisi">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>220</y>
+     <width>361</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_kumpir">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Kumpir Seçiniz</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_cikolata">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Çikolata Seçiniz</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cmb_cikolata_secim">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>80</y>
+     <width>91</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Beyaz Çikolata</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sütlü Çikolata - Nutella</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Franbuazlı Çikolata</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_susleme">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Süsleme Seçiniz</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cmb_susleme_secim">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>140</y>
+     <width>91</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Hindistan Cevizi</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Damla Bitter Çikolata</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bal</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="edt_kumpir">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>20</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="edt_cikolata">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>80</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="edt_susleme">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>140</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

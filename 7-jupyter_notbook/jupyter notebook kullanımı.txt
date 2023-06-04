@@ -1,0 +1,7 @@
+jupyter notebook açmak için:
+
+hangi klasör altında açmak istiyorsak o klasörün adres satırına cmd yazıyoruz
+
+ardından o klasörün yolunu gösterene bir komut satırı açılıyor
+
+"jupyter notebook"  komutunu yazıyoruz ve açılıyor.

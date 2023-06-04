@@ -1,0 +1,30 @@
+sqlite.org sitesinden işletim sistemine uygun olan sqlite-tools dosyasını indirelim.
+ardından veritabanı klasörü olmasını istediğimiz dizine indirdiğimiz rar dosyasının içindeki execute dosyaları koyuyoruz
+herhangi bir yükleme yok sadece dosyaları kopyalamak yeterli
+
+
+windows arama bölümünden ortam değişkenleri araması yapıyoruz ve sistem ortam değişkenlerini düzenleyin'e giriyoruz
+açılan pencerede altta bulunan ortam değişkenlerine tıklıyoruz
+açılan pencerede path satırını seçip düzenle diyoruz
+açılan pencerede yeni diyoruz ve az önce dosyaları kopyaladığımız klasör adresini yazıyoruz.
+tüm pencerelerden tamam diyerek çıkıyoruz 
+sqlite veritabanı kurulumu tamamlandı
+
+
+kurulumu kontrol etmek için:
+
+komut isteminde "sqlite3 --version" yazıyoruz 
+sqlite sürüm bilgisi gelirse sorun yok demektir.
+
+
+
+veritabanı görüntüleme için farklı bir programa ihtiyaç var 
+sqlitebrowser.org sitesinden db browser indirerek klasik kurulum yapıyoruz
+açmak istediğimiz veritabanlarını db browser ile açıyoruz
+
+
+
+
+
+
+

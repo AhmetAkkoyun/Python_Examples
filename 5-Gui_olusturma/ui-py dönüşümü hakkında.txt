@@ -1,0 +1,6 @@
+qtdesignerda kaydedilen test.ui uzantılı dosyayı test.py uzantılı dosyaya çevirmek için
+komut satırında yazılması gereken kod:
+
+pyuic5 -x test.ui -o test.py
+
+bu sayede anakondanın içinde gelen pyuic5 isimli uygulamayı kullanarak dosyamızı dönüştürebiliriz.
